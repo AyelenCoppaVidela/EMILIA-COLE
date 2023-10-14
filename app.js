@@ -20,7 +20,7 @@ app.get('/about', function(req, res ){
     res.sendFile(path.join(__dirname, '/views/about.html'));
 });
 
-app.get('./contacto', function(req, res ){
+app.get('/contact', function(req, res ){
     res.sendFile(path.join(__dirname, '/views/contacto.html'));
 });
 
