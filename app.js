@@ -3,12 +3,12 @@ const app = express();
 const path = require('path');
 
 
-app.listen(8080, () => {
-    console.log("servidor corriendo 8080");
+app.listen(8000, () => {
+    console.log("servidor corriendo 8000");
 });
 
 
-app.get('/', function(req, res ){
+app.get('/', (req, res )=>{
     res.sendFile(path.join(__dirname, '/views/home.html'));
 });
 

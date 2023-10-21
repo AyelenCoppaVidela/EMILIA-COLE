@@ -1,3 +1,4 @@
-p {
-    color:green;
-}
+@import url(/css/general.css);
+@import url(/css/home.css);
+
+

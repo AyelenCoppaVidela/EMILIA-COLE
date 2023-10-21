@@ -1,0 +1,47 @@
+@import url(/css/general.css);
+
+p{
+    color:rgb(25, 114, 93);
+    font-size: x-large;
+    margin-left: 5%;
+
+}
+
+h1{
+    font-size: 450%;
+}
+
+h5{
+    color:rgb(25, 114, 93);
+    margin-left: 5%;
+}
+
+.imgabout {
+    background: url(/img/emilia-about.jpg) 
+    no-repeat  fixed;
+    background-position: right;
+     background-size: 75%;
+    
+}
+
+.menu ul li{
+    
+    display: inline;
+}
+  
+
+
+.redes ul li {
+   
+    display: inline;
+}
+
+.menu{
+    background-color: rgba(255, 255, 255, 0.5);
+   padding: 2px;
+    text-align: right;
+}
+
+.redes{
+    text-align: right;
+}

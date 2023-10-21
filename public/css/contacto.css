@@ -1,0 +1,24 @@
+@import url(/css/general.css);
+
+h5{
+    color:rgb(25, 114, 93);
+}
+
+
+.menu ul li {
+    
+    display: inline;
+}
+
+.redes ul li {
+   
+    display: inline;
+}
+
+.menu{
+    text-align: right;
+}
+
+.redes{
+    text-align: right;
+}
